@@ -2,7 +2,7 @@ cask "claudine" do
   name "claudine"
   desc "Unlock your Claude Pro/Max subscription in any tool or library."
   homepage "https://github.com/florianilch/claudine-proxy"
-  version "0.4.0"
+  version "0.5.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "claudine" do
 
   on_macos do
     on_intel do
-      url "https://github.com/florianilch/claudine-proxy/releases/download/v0.4.0/claudine_#{version}_darwin_amd64.tar.gz"
-      sha256 "9801a878ac212ba25fdf2d435dc890091c3230e226921c516ea30b8c932ab2a7"
+      url "https://github.com/florianilch/claudine-proxy/releases/download/v0.5.0/claudine_#{version}_darwin_amd64.tar.gz"
+      sha256 "8fc1911208f6b6b14f005a55c1dd3979ff6c17dae86c08d8bb475c685d15acee"
     end
     on_arm do
-      url "https://github.com/florianilch/claudine-proxy/releases/download/v0.4.0/claudine_#{version}_darwin_arm64.tar.gz"
-      sha256 "40e5e6405ac88b5345f1752be0877afce9bd71e936595aaa3c5972a9df1c0beb"
+      url "https://github.com/florianilch/claudine-proxy/releases/download/v0.5.0/claudine_#{version}_darwin_arm64.tar.gz"
+      sha256 "0afde539f24109a2dfb41ef676bda4cad1c798cbae079fbecab0dcc25f22d6d0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/florianilch/claudine-proxy/releases/download/v0.4.0/claudine_#{version}_linux_amd64.tar.gz"
-      sha256 "b0307c581936324392757eb08a85f9eb59cbdd94908fe242392060fdc61466d1"
+      url "https://github.com/florianilch/claudine-proxy/releases/download/v0.5.0/claudine_#{version}_linux_amd64.tar.gz"
+      sha256 "bdc3755135b8e4d1bf117476813d348423906c56a951893a1672ac3b6d4870dd"
     end
     on_arm do
-      url "https://github.com/florianilch/claudine-proxy/releases/download/v0.4.0/claudine_#{version}_linux_arm64.tar.gz"
-      sha256 "2d361796e2d31ab8ff820cbd8f909990a8f94d3295025543687e603103edc3eb"
+      url "https://github.com/florianilch/claudine-proxy/releases/download/v0.5.0/claudine_#{version}_linux_arm64.tar.gz"
+      sha256 "74953a96c97db14672f51f3d6116b770ff3f47fbe7d97667b9e56809b71c3d54"
     end
   end
 
