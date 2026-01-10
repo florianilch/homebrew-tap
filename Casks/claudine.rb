@@ -1,6 +1,7 @@
 cask "claudine" do
+  disable! date: "2025-01-10", because: :discontinued
   name "claudine"
-  desc "Unlock your Claude Pro/Max subscription in any tool or library."
+  desc "claudine"
   homepage "https://github.com/florianilch/claudine-proxy"
   version "0.6.0"
 
